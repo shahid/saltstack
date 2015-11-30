@@ -2,4 +2,5 @@
 base:
   '*':
     - common
+    - groups
     - users
