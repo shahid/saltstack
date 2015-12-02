@@ -1,3 +1,3 @@
 include:
-  - users.present
-  - users.absent
+  - users.active
+  - users.inactive

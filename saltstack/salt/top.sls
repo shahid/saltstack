@@ -3,5 +3,7 @@ base:
   '*':
     - common
     - motd
-    - users
     - groups
+    - users
+  minion1:
+    - rvm
