@@ -1,3 +1,3 @@
 users.absent:
-  user2:
+  user3:
     purge: True

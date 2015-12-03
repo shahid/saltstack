@@ -1,10 +1,10 @@
 users.present:
-  user3:
-    fullname: User3
-    uid: 1010
-    gid: 1010
+  febin:
+    fullname: Febin
+    uid: 1012
+    gid: 1012
     shell: /bin/bash
-    home: /home/user3
+    home: /home/febin
     groups:
       - admin
     password: $6$u9T_JwrO$pie0IUPij3WdBsloKy9E5lwbLCeb/w2IuaRLKYcjcfZkoP3/ULjgOeuuDOfOF3pUgom5HjrlfaGtXOv40bNoe1
