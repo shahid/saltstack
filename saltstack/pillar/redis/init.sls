@@ -1,6 +1,8 @@
 redis:
   root_dir: /var/lib/redis
-  user: redis
+  user: root
+  group: root
+  home: /root
   port: 6379
   bind: 127.0.0.1
   snapshots:
@@ -11,8 +13,10 @@ redis:
   lookup:
     svc_state: running
     cfg_name: /etc/redis/redis.conf
+    cfg_version: 3.0
     pkg_name: redis-server
     svc_name: redis-server
     version: 3.0.5
     install_from: source
     checksum: sha1=ad3ee178c42bfcfd310c72bbddffbbe35db9b4a6
+    tcp_backlog: 0
