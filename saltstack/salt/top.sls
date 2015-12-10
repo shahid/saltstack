@@ -8,5 +8,5 @@ base:
   minion1:
     - rvm
   minion2:
-    - redis.server
+    - redis-server
 

@@ -7,4 +7,4 @@ base:
   minion1:
     - rvm
   minion2:
-    - redis
+    - redis-server
